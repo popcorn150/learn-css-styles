@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243, 238, 238);
+}
+
+.full-page {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgba(11, 239, 11, 0.824);
+}
+
+nav ul li img {
+    position: absolute;
+    top: 50px;
+}
+
+nav ul li img:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+#circle {
+    border-radius: 50%;
+    border: none;
+    border: 1px solid rgb(219, 214, 214);
+    background-color: rgb(219, 214, 214);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 170px;
+}
+
+#top_box {
+    width: 200px;
+    height: 250px;
+    border: none;
+    border: 1px solid rgb(240, 234, 234);
+    background-color: #d7d7dd;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: absolute;
+    margin-left: 80%;
+    top: 135px;    
+}
+
+/*#bottom-box {
+    width: 200px;
+    height: 250px;
+    border: none;
+    border: 1px solid rgb(240, 234, 234);
+    background-color: black;
+    position: relative;
+    margin-left: 80%;
+    bottom: 200px;    
+}
+
+.comfy_chair {
+    background-blend-mode: multiply;
+    border: none;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 135px;
+    height: 500px;
+}*/
+
+h4 {
+    text-align: center;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-left: 45%;
+    top: 200px;
+    position: absolute;
+}
+
+h1 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-left: 45%;
+    position: absolute;
+    top: 230px;
+    font-weight: bold;
+}
+
+.page_description {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin-left: 45%;
+    position: absolute;
+}
+
+.price_tag {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    margin-left: 45%;
+    top: 400px;
+    font-weight: bold;
+}
+
+#like {
+    border-radius: 50%;
+    border: none;
+    border: 1px solid rgb(219, 214, 214);
+    background-color: rgb(219, 214, 214);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 120px;
+}
+
+#cart {
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 453px;
+    width: 150px;
+    height: 50px;
+    box-shadow: inset;
+    color: white;
+}
